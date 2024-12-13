@@ -5,10 +5,9 @@
 # Nearby App <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin" width="40" height="40">
 
 
-Bem-vindo ao projeto desenvolvido durante o treinamento da NLW Pocket: Mobile promovido pela Rocketseat!🚀
+Seja bem-vindo ao aplicativo desenvolvido durante o evento NLW Pocket: Mobile, promovido pela Rocketseat! 🚀
 
-Este aplicativo foi criado como parte do evento para consolidar meus aprendizados em Kotlin, explorando funcionalidades como mapas e câmera. </br>
-A proposta da aplicação é simples e funcional: listar estabelecimentos próximos ao usuário que oferecem descontos e benefícios exclusivos. Todos os locais estão cadastrados no aplicativo e podem ser explorados de forma prática e intuitiva. A aplicação está integrada a uma API desenvolvida em Node.js, que simula os dados dos estabelecimentos, cupons e outras informações relevantes.
+A proposta é simples e prática: ajudar o usuário a encontrar estabelecimentos próximos que oferecem descontos e benefícios exclusivos. Todos os locais estão cadastrados no app e podem ser navegados de forma fácil e intuitiva. A aplicação também se conecta a uma API criada em Node.js, que fornece dados simulados sobre os estabelecimentos, cupons e outras informações úteis.
 
 ## Contexto da Aplicação
 Este aplicativo foi desenvolvido com base no layout do Figma criado pela Rocketseat: [Nearby App](https://www.figma.com/community/file/1448070647757721748/nlw-pocket-mobile-nearby)
