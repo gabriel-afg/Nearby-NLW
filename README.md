@@ -7,6 +7,7 @@
 
 Seja bem-vindo ao aplicativo desenvolvido durante o evento NLW Pocket: Mobile, promovido pela Rocketseat! 🚀
 
+Este projeto foi criado como parte do evento para aplicar e consolidar meus conhecimentos em Kotlin, explorando recursos como mapas e câmera.<br>
 A proposta é simples e prática: ajudar o usuário a encontrar estabelecimentos próximos que oferecem descontos e benefícios exclusivos. Todos os locais estão cadastrados no app e podem ser navegados de forma fácil e intuitiva. A aplicação também se conecta a uma API criada em Node.js, que fornece dados simulados sobre os estabelecimentos, cupons e outras informações úteis.
 
 ## Contexto da Aplicação
