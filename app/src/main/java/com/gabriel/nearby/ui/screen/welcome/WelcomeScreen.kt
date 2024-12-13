@@ -1,4 +1,4 @@
-package com.gabriel.nearby.ui.screen
+package com.gabriel.nearby.ui.screen.welcome
 
 
 import androidx.compose.foundation.background

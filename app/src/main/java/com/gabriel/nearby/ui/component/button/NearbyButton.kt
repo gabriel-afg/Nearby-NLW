@@ -25,13 +25,13 @@ import com.gabriel.nearby.ui.theme.Typography
 fun NearbyButton(
     modifier: Modifier = Modifier,
     text: String? = null,
-    @DrawableRes iconReS: Int? = null,
+    @DrawableRes iconRes: Int? = null,
     onClick: () -> Unit
 ) {
     Button(
         modifier = modifier.heightIn(min = 56.dp),
         shape = RoundedCornerShape(16.dp),
-        contentPadding = if (text == null && iconReS == null) PaddingValues(0.dp) else ButtonDefaults.ContentPadding,
+        contentPadding = if (text == null && iconRes != null) PaddingValues(0.dp) else ButtonDefaults.ContentPadding,
         colors = ButtonDefaults.buttonColors(
             containerColor = GreenBase
         ),
@@ -41,15 +41,11 @@ fun NearbyButton(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            iconReS?.let {
-                Icon(
-                    painter = painterResource(id = iconReS),
-                    contentDescription = "ícone do botão"
-                )
+            iconRes?.let {
+                Icon(painter = painterResource(id = iconRes), contentDescription = "Ícone do Botão")
             }
             text?.let { Text(text = text.uppercase(), style = Typography.labelLarge) }
         }
-
     }
 }
 
@@ -59,10 +55,8 @@ private fun NearbyButtonPreview() {
     NearbyButton(
         modifier = Modifier.fillMaxWidth(),
         text = "Confirmar",
-        iconReS = R.drawable.ic_scan
-    ) {
-
-    }
+        iconRes = R.drawable.ic_scan
+    ) {}
 }
 
 @Preview
@@ -71,9 +65,7 @@ private fun NearbyButtonNoIconPreview() {
     NearbyButton(
         modifier = Modifier.fillMaxWidth(),
         text = "Confirmar",
-    ) {
-
-    }
+    ) {}
 }
 
 @Preview
@@ -81,8 +73,6 @@ private fun NearbyButtonNoIconPreview() {
 private fun NearbyButtonNoTextPreview() {
     NearbyButton(
         modifier = Modifier,
-        iconReS = R.drawable.ic_arrow_left
-    ) {
-
-    }
+        iconRes = R.drawable.ic_arrow_left
+    ) {}
 }

@@ -27,7 +27,6 @@ fun NearbyMarketCardList(
         }
         items(items = markets, key = { it.id }) { market ->
             NearbyMarketCard(market = market, onClick = { onMarketClick(market) })
-
         }
     }
 }
