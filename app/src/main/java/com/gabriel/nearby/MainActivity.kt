@@ -5,27 +5,25 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import com.gabriel.nearby.data.model.Market
-import com.gabriel.nearby.ui.screen.home.HomeScreen
-import com.gabriel.nearby.ui.screen.home.HomeViewModel
-import com.gabriel.nearby.ui.screen.market_details.MarketDetailsScreen
-import com.gabriel.nearby.ui.screen.splash.SplashScreen
-import com.gabriel.nearby.ui.screen.welcome.WelcomeScreen
 import com.gabriel.nearby.ui.route.Home
 import com.gabriel.nearby.ui.route.QRCodeScanner
 import com.gabriel.nearby.ui.route.Splash
 import com.gabriel.nearby.ui.route.Welcome
+import com.gabriel.nearby.ui.screen.home.HomeScreen
+import com.gabriel.nearby.ui.screen.home.HomeViewModel
+import com.gabriel.nearby.ui.screen.market_details.MarketDetailsScreen
 import com.gabriel.nearby.ui.screen.market_details.MarketDetailsUiEvent
 import com.gabriel.nearby.ui.screen.market_details.MarketDetailsViewModel
 import com.gabriel.nearby.ui.screen.qrcode_scanner.QRCodeScannerScreen
+import com.gabriel.nearby.ui.screen.splash.SplashScreen
+import com.gabriel.nearby.ui.screen.welcome.WelcomeScreen
 import com.gabriel.nearby.ui.theme.NearbyTheme
 
 class MainActivity : ComponentActivity() {
